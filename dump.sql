@@ -47,7 +47,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (4,'Mohamed','alhasne.mohamed@gmail.com','123456','2017-10-14 07:46:28','2017-10-14 07:46:28'),(5,'Mohamed','alhasne2.mohamed@gmail.com','123456','2017-10-14 07:55:13','2017-10-14 07:55:13'),(6,'Mohamed','alhasne2.mohamed@gmail.com','123456','2017-10-14 07:56:39','2017-10-14 07:56:39'),(7,'Mohamed','alhasne5.mohamed@gmail.com','123456','2017-10-14 07:59:07','2017-10-14 07:59:07');
+INSERT INTO `users` VALUES (4,'User 4','user4@gmail.com','123456','2017-10-14 07:46:28','2017-10-14 07:46:28'),(5,'User 5','user5@gmail.com','123456','2017-10-14 07:55:13','2017-10-14 07:55:13'),(6,'User 6','user6@gmail.com','123456','2017-10-14 07:56:39','2017-10-14 07:56:39'),(7,'User 7','user 7@gmail.com','123456','2017-10-14 07:59:07','2017-10-14 07:59:07');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
